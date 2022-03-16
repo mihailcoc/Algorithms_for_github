@@ -1,0 +1,115 @@
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root: Full program 1000 calculated in 62.2750809 seconds
+DEBUG:root:Partition of a set of 2021 objects. Total size = 4801372 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  50  4740968  99   4740968  99 dict (no owner)
+     1    846  42    23688   0   4764656  99 int
+     2    161   8    18778   0   4783434 100 str
+     3      1   0     8368   0   4791802 100 _io.BufferedReader
+     4      1   0     6146   0   4797948 100 bytes
+     5      2   0     1376   0   4799324 100 list
+     6      1   0      736   0   4800060 100 set
+     7      1   0      416   0   4800476 100 types.FrameType
+     8      1   0      240   0   4800716 100 dict of _io.FileIO
+     9      1   0      240   0   4800956 100 dict of _io.TextIOWrapper
+<5 more rows. Type e.g. '_.more' to view.>
+
+
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root: Full program 1000 calculated in 56.8767087 seconds
+DEBUG:root:Partition of a set of 2044 objects. Total size = 4802940 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  49  4740968  99   4740968  99 dict (no owner)
+     1    854  42    23912   0   4764880  99 int
+     2    161   8    18778   0   4783658 100 str
+     3      1   0     8368   0   4792026 100 _io.BufferedReader
+     4      1   0     6146   0   4798172 100 bytes
+     5      4   0     1888   0   4800060 100 list
+     6     14   1      896   0   4800956 100 tuple
+     7      1   0      736   0   4801692 100 set
+     8      1   0      416   0   4802108 100 types.FrameType
+     9      1   0      240   0   4802348 100 dict of _io.FileIO
+<5 more rows. Type e.g. '_.more' to view.>
+
+
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root:Prepare_index of 1000 calculated in 0.7185113 seconds
+DEBUG:root:Calc_relevance calculated in 0.005459700000002954 seconds
+DEBUG:root:Calc_relevance_for_word_in_query_unigue_total calculated in 0 seconds
+DEBUG:root:Calc_relevance_for_enumerate_total calculated in 52.58673369999985 seconds
+DEBUG:root:merge_sort_reverse calculated in 4.913857799999533 seconds
+DEBUG:root:merge_sort calculated in 5.360929399999705 seconds
+DEBUG:root:print calculated in 0.9201968000003262 seconds
+DEBUG:root:Partition of a set of 2050 objects. Total size = 4803084 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  49  4740968  99   4740968  99 dict (no owner)
+     1    854  42    23912   0   4764880  99 int
+     2    161   8    18778   0   4783658 100 str
+     3      1   0     8368   0   4792026 100 _io.BufferedReader
+     4      1   0     6146   0   4798172 100 bytes
+     5      4   0     1888   0   4800060 100 list
+     6     14   1      896   0   4800956 100 tuple
+     7      1   0      736   0   4801692 100 set
+     8      1   0      416   0   4802108 100 types.FrameType
+     9      1   0      240   0   4802348 100 dict of _io.FileIO
+<5 more rows. Type e.g. '_.more' to view.>
+
+
+Hash
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root:Prepare_index of 1000 calculated in 0.6818543000000001 seconds
+DEBUG:root:Calc_relevance calculated in 0.015894099999997024 seconds
+DEBUG:root:Calc_relevance_for_word_in_query_unigue_total calculated in 0.0063970999997915445 seconds
+DEBUG:root:Calc_relevance_if_rank_total calculated in 0.011928999999909706 seconds
+DEBUG:root:Calc_relevance_for_enumerate_total calculated in 156.2756329000002 seconds
+DEBUG:root:merge_sort_reverse calculated in 4.58269770000004 seconds
+DEBUG:root:merge_sort calculated in 4.960534699998675 seconds
+DEBUG:root:print calculated in 0.9273545000013144 seconds
+DEBUG:root:Partition of a set of 2054 objects. Total size = 4803180 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  49  4740968  99   4740968  99 dict (no owner)
+     1    854  42    23912   0   4764880  99 int
+     2    161   8    18778   0   4783658 100 str
+     3      1   0     8368   0   4792026 100 _io.BufferedReader
+     4      1   0     6146   0   4798172 100 bytes
+     5      4   0     1888   0   4800060 100 list
+     6     14   1      896   0   4800956 100 tuple
+     7      1   0      736   0   4801692 100 set
+     8      1   0      416   0   4802108 100 types.FrameType
+     9     11   1      264   0   4802372 100 float
+<5 more rows. Type e.g. '_.more' to view.>
+
+
+Без Hash
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root:Prepare_index of 1000 calculated in 0.13979739999999996 seconds
+DEBUG:root:Calc_relevance calculated in 0.016485199999976885 seconds
+DEBUG:root:Calc_relevance_for_word_in_query_unigue_total calculated in 0.006734900001852728 seconds
+DEBUG:root:Calc_relevance_if_rank_total calculated in 0.01233269999909481 seconds
+DEBUG:root:Calc_relevance_for_enumerate_total calculated in 168.61073440000035 seconds
+DEBUG:root:merge_sort_reverse calculated in 4.9757423999998025 seconds
+DEBUG:root:merge_sort calculated in 5.366399900000175 seconds
+DEBUG:root:print calculated in 1.006613799999684 seconds
+DEBUG:root:Partition of a set of 2054 objects. Total size = 4799338 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  49  4740968  99   4740968  99 dict (no owner)
+     1    854  42    23912   0   4764880  99 int
+     2    161   8    14936   0   4779816 100 str
+     3      1   0     8368   0   4788184 100 _io.BufferedReader
+     4      1   0     6146   0   4794330 100 bytes
+     5      4   0     1888   0   4796218 100 list
+     6     14   1      896   0   4797114 100 tuple
+     7      1   0      736   0   4797850 100 set
+     8      1   0      416   0   4798266 100 types.FrameType
+     9     11   1      264   0   4798530 100 float
+<5 more rows. Type e.g. '_.more' to view.>

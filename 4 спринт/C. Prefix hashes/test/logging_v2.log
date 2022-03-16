@@ -1,0 +1,17 @@
+DEBUG:root:Hash pre-cal started...
+DEBUG:root:Hash pre-calc done in 1.3089691 seconds.
+DEBUG:root:Main loop started...
+DEBUG:root:Main loop done in 0.002093899999999982 seconds.
+DEBUG:root:Partition of a set of 1000000 objects. Total size = 37706877 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0 999989 100 27999692  74  27999692  74 int
+     1      1   0  8697464  23  36697156  97 list
+     2      2   0  1000105   3  37697261 100 str
+     3      1   0     8368   0  37705629 100 _io.BufferedReader
+     4      1   0      416   0  37706045 100 types.FrameType
+     5      1   0      240   0  37706285 100 dict of _io.FileIO
+     6      1   0      240   0  37706525 100 dict of _io.TextIOWrapper
+     7      1   0      216   0  37706741 100 _io.TextIOWrapper
+     8      1   0       72   0  37706813 100 _io.FileIO
+     9      1   0       40   0  37706853 100 _io.IncrementalNewlineDecoder
+    10      1   0       24   0  37706877 100 float

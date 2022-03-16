@@ -1,0 +1,17 @@
+DEBUG:root:
+Running tests from test_data/15.input...
+
+DEBUG:root: Full program 1000 calculated in 48.9284975 seconds
+DEBUG:root:Partition of a set of 2021 objects. Total size = 4801372 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0   1001  50  4740968  99   4740968  99 dict (no owner)
+     1    846  42    23688   0   4764656  99 int
+     2    161   8    18778   0   4783434 100 str
+     3      1   0     8368   0   4791802 100 _io.BufferedReader
+     4      1   0     6146   0   4797948 100 bytes
+     5      2   0     1376   0   4799324 100 list
+     6      1   0      736   0   4800060 100 set
+     7      1   0      416   0   4800476 100 types.FrameType
+     8      1   0      240   0   4800716 100 dict of _io.FileIO
+     9      1   0      240   0   4800956 100 dict of _io.TextIOWrapper
+<5 more rows. Type e.g. '_.more' to view.>
