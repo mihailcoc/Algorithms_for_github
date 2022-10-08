@@ -1,18 +1,19 @@
+def my_hash(i):
+    return (hashes[i - 1] * a % m + ord(s[i])) % m
+
+
+def get_hash_substrings(left, right):
+    return (hashes[right] - hashes[left - 1] * pow(a, right - left + 1, m)) % m
+
+
 if __name__ == '__main__':
-    q = int(input())
-    R = int(input())
-    string = []
-    string = str(input())
-    qty_of_queries = int(input())
-    first_index = int()
-    last_index = int()
-    result = 0
-    for query in range(1, qty_of_queries + 1, 1):
-        hash_summ = 0
-        result = 0
-        n = 1
-        first_index, last_index = input().split()
-        small_string = string[int(first_index) - 1:int(last_index)]
-        for symbol in small_string:
-            result = (result * q + ord(symbol)) % R
+    a = int(input())
+    m = int(input())
+    s = input()
+    hashes = [0] * (len(s) + 1)
+    for i in range(len(s)):
+        hashes[i] = my_hash(i)
+    for _ in range(int(input())):
+        l, r = input().split()
+        result = get_hash_substrings(int(l) - 1, int(r) - 1)
         print(result, sep='\n')
