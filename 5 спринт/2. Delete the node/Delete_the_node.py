@@ -1,5 +1,3 @@
-# https://contest.yandex.ru/contest/24810/run-report/65443175/
-
 from lib2to3.pytree import Node
 
 
