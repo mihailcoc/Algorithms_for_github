@@ -1,7 +1,3 @@
-# ID 54992335
-# https://contest.yandex.ru/contest/23390/problems/A/?success=54992335#51450/2020_11_13/VxxSc5X0LZ
-
-
 def nearest_null(n, street):
 
     null_address = [0] * len(street)

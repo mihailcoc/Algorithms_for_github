@@ -1,6 +1,3 @@
-# ID  54682362
-# https://contest.yandex.ru/contest/23390/run-report/54682362/
-
 from collections import Counter
 
 
