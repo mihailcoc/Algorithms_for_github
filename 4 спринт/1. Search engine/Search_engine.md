@@ -53,7 +53,8 @@ mary likes black coffee without milk
 
 Пример 2
 
-Ввод	
+Ввод
+	
 6
 buy flat in moscow
 rent flat in moscow
