@@ -26,27 +26,6 @@ def merge(array, left, mid, right):
             k = k + 1
         return array
  
-    # left_index, right_index, result_index = 0, 0, 0
-    # while left_index < len(left_array) and right_index < len(right_array):
-    #     if left_array[left_index] <= right_array[right_index]:
-    #         result[result_index] = left_array[left_index]
-    #         left_index += 1
-    #     else:
-    #         result[result_index] = right_array[right_index]
-    #         right_index += 1
-    #     result_index += 1
- 
-    # while left_index < len(left_array):
-    #     result[result_index] = left_array[left_index]
-    #     left_index += 1
-    #     result_index += 1
-    # while right_index < len(right_array):
-    #     result[result_index] = right_array[right_index]
-    #     right_index += 1
-    #     result_index += 1
-    # return result
- 
- 
 def merge_sort(array, left, right):
     mid = (left + right) // 2
     if right - left > 2:

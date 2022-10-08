@@ -24,4 +24,3 @@ if __name__ == '__main__':
     arr = sys.stdin.readline().split()
     numbers = insertion_sort_by_comparator(arr, item_to_insert)
     print(*numbers, sep='')
-

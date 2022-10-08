@@ -27,3 +27,13 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def main():
+    n = int(input())
+    arr = sys.stdin.readline().split()
+    bubble_sort(n, arr)
+
+
+if __name__ == '__main__':
+    main()
